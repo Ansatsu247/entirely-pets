@@ -103,18 +103,16 @@ class App extends Component {
         {
           products.sort(
             function(a,b) {
-              a.price = a.price.replace(/[^0-9.]/g, "");
-              b.price = b.price.replace(/[^0-9.]/g, "");
-              return a.price - b.price;
+              return a.price.replace(/[^0-9.]/g, "")
+              - b.price.replace(/[^0-9.]/g, "");
             });
         }
         else if (term === 'high')
         {
           products.sort(
             function(a,b) {
-              a.price = a.price.replace(/[^0-9.]/g, "");
-              b.price = b.price.replace(/[^0-9.]/g, "");
-              return b.price - a.price;
+              return b.price.replace(/[^0-9.]/g, "")
+               - a.price.replace(/[^0-9.]/g, "");
             });
         }
 
