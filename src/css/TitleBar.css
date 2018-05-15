@@ -1,0 +1,56 @@
+header {
+    background-color: #4169E1;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.title-container {
+  padding: 10px 10px 10px 10px;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 768px) {
+  .col-xs-12 {
+    margin-top: 20px;
+  }
+  .hero img {
+    height: 150px;
+  }
+}
+
+@media (max-width: 992px) {
+  .col-sm-12 {
+    margin-top: 20px;
+  }
+
+  .col-md-12 {
+    margin-top: 20px;
+  }
+  .hero img {
+    height: 150px;
+  }
+}
+
+.hero {
+  margin-top: 20px;
+  margin:auto;
+}
+
+.hero img {
+  max-width: 100%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+}
+
+.glyphStyle {
+  color: #FFFFFF;
+  padding-right: 20px;
+  font-size: 25px;
+}
